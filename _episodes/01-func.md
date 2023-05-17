@@ -220,7 +220,7 @@ temperature in Kelvin was: 373.15
 {: .output}
 
 
-## Tidying up
+<!-- ## Tidying up
 
 Now that we know how to wrap bits of code up in functions,
 we can make our inflammation analysis easier to read and easier to reuse.
@@ -290,7 +290,7 @@ for filename in filenames[:3]:
 By giving our functions human-readable names,
 we can more easily read and understand what is happening in the `for` loop.
 Even better, if at some later date we want to use either of those pieces of code again,
-we can do so in a single line.
+we can do so in a single line. -->
 
 ## Testing and Documenting
 
@@ -329,7 +329,7 @@ That looks right,
 so let's try `offset_mean` on our real data:
 
 ~~~
-data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+data = numpy.loadtxt(fname='monthlywaves.csv', delimiter=',')
 print(offset_mean(data, 0))
 ~~~
 {: .language-python}
@@ -487,7 +487,7 @@ In fact,
 we can pass the filename to `loadtxt` without the `fname=`:
 
 ~~~
-numpy.loadtxt('inflammation-01.csv', delimiter=',')
+numpy.loadtxt('monthlywaves.csv', delimiter=',')
 ~~~
 {: .language-python}
 
@@ -505,7 +505,7 @@ array([[ 0.,  0.,  1., ...,  3.,  0.,  0.],
 but we still need to say `delimiter=`:
 
 ~~~
-numpy.loadtxt('inflammation-01.csv', ',')
+numpy.loadtxt('monthlywaves.csv', ',')
 ~~~
 {: .language-python}
 
@@ -667,7 +667,7 @@ and eight others that do.
 If we call the function like this:
 
 ~~~
-numpy.loadtxt('inflammation-01.csv', ',')
+numpy.loadtxt('monthlywaves.csv', ',')
 ~~~
 {: .language-python}
 

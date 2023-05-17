@@ -199,7 +199,7 @@ print(list(result))
 ~~~
 {: .output}
 
-> ## Exercise: Check Inflammation Patient Data Against A Threshold Using Map
+<!-- > ## Exercise: Check Inflammation Patient Data Against A Threshold Using Map
 > Write a new function called `daily_above_threshold()` in our inflammation `models.py` that determines whether or not 
 > each daily inflammation value for a given patient exceeds a given threshold.
 >
@@ -223,7 +223,7 @@ print(list(result))
 > >
 > > Note: `map()` function returns a map iterator object which needs to be converted to a collection object (such as a list, dictionary, set, tuple) using the corresponding "factory" function (in our case `list()`).
 > {: .solution}
-{: .challenge}
+{: .challenge} -->
 
 #### Comprehensions for Mapping/Data Generation
 
