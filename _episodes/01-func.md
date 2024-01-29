@@ -31,6 +31,9 @@ keypoints:
    then call it with different parameter values to customize its behavior."
 ---
 
+> We can skip this episode if all the attendees did [the functions episode in the novice course](https://edcarp.github.io/python-novice-esces/08-func/index.html)
+{: .callout}
+
 At this point, we've seen that code can have Python make decisions about what it sees in our data. What if we want to convert some of our data, like taking a temperature in Fahrenheit and converting it to Celsius. We could write something like this for converting a single number 
 
 ~~~
