@@ -31,6 +31,7 @@ keypoints:
    then call it with different parameter values to customize its behavior."
 ---
 
+> ## Optional material
 > We can skip this episode if all the attendees did [the functions episode in the novice course](https://edcarp.github.io/python-novice-esces/08-func/index.html)
 {: .callout}
 
